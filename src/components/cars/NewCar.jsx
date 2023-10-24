@@ -3,8 +3,8 @@ import zentorno from '../../assets/images/zentorno.jpg'
 
 export const NewCar = () => {
   return (
-    <article className="bg-SoftOrange w-[360px]">
-      <div className='flex pl-5 items-center'>
+    <article className="bg-SoftOrange w-[360px] mx-5 items-center">
+      <div className='flex pl-5 mt-6 md:flex'>
         <img className='w-[50px] h-[50px]' src={pegassi} alt="" />
 
         <div className='pl-5'>

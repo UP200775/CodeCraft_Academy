@@ -13,12 +13,12 @@ export const MainArticle = () => {
 
         <div className='sm:flex'>
           <div className='flex-1 py-6'>
-            <h2 className='text-[40px] font-bold sm:text-[58px] leading-none'>¿Quieres tener tu primer auto?</h2>
+            <h2 className='text-[40px] font-bold sm:text-[58px] leading-none'>Aprende con Nosotros</h2>
           </div>
           <div className='flex-1 pt-9'>
-            <p className='text-[13px] mb-10 sm:text-[15px]'>Te podemos ayudar para que lo tengas</p>
+            <p className='text-[13px] mb-10 sm:text-[15px]'>Cursos de calidad con expertos en multiples lenguajes</p>
             <button className='bg-SoftRed w-[185px] h-[48px] uppercase text-OffWhite
-              hover:bg-VeryDarkBlue'>Consiguelo ahora</button>
+              hover:bg-VeryDarkBlue'>Compra ahora</button>
           </div>
         </div>
       </section>

@@ -12,17 +12,11 @@ export const NavBar = () => {
         </li>
   
         <li>
-            <Link to="/Autos">Autos</Link>
+            <Link to="/Autos">Cursos</Link>
         </li>
 
         <li>
-            <Link to="/Refacciones">Refacciones</Link>
-        </li>
-        <li>
-            <Link to="/Artículos">Artículos</Link>
-        </li>
-        <li>
-            <Link to="/Comunícate">Comunícate</Link>
+            <Link to="/Refacciones">Sobre Nosotros</Link>
         </li>
     </ul>
 

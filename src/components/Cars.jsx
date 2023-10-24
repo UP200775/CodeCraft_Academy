@@ -1,9 +1,14 @@
 import React from 'react'
+import { NewCar } from './cars/NewCar'
 
 export const Cars = () => {
   return (
     <div>
-        <h1>Autos autos baratos wey</h1>
+        <section className="mt-6 md:flex "> 
+          <NewCar />
+          <NewCar />
+          <NewCar />
+        </section>
     </div>
   )
 }

@@ -3,18 +3,22 @@ import { NewArticle } from "./NewArticle"
 export const NewContainer = () => {
   return (
     <aside className="bg-VeryDarkBlue text-OffWhite py-[28px] px-[20px]">
-        <h1 className="text-SoftOrange text-4xl font-bold">Nuevo</h1>
+        <h1 className="text-SoftOrange text-4xl font-bold">Nuevos Cursos</h1>
         <NewArticle 
-            title='Opciones para primer auto.'
-            text='Aquí te damos las mejores opciones para primer auto.'
+            title='Domina C#'
+            text='De un principiante a un experto'
         />
         <NewArticle 
-            title='¿Cómo solucionar problemas de un primer auto?'
-            text='El primer auto puede que tenga estas fallas.'
+            title='JavaScript en acción'
+            text='Desde lo básico hasta el desarrollo empresarial'
         />
         <NewArticle 
-            title='Mejores consejos al manejar un auto.'
-            text='Para mejorar al manejar, estos son los mejores consejos.'
+            title='React Revolution'
+            text='Creacion de interfaces de usuario dinámicas'
+        />
+        <NewArticle 
+            title='HTML y CSS'
+            text='Fundamentos del desarrollo frontend'
         />
     </aside>
   )

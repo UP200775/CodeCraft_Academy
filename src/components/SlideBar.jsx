@@ -35,20 +35,13 @@ export const SlideBar = () => {
           </div>
 
           <div className='text-center text-black text-xl hover:bg-black hover:text-white cursor-pointer py-3 mb-2'>
-            <Link to="/Autos" onClick={closeSlideBar}>Autos</Link>
+            <Link to="/Autos" onClick={closeSlideBar}>Cursos</Link>
           </div>
 
           <div className='text-center text-black text-xl hover:bg-black hover:text-white cursor-pointer py-3 mb-2'>
-            <Link to="/Refacciones" onClick={closeSlideBar}>Refacciones</Link>
+            <Link to="/Refacciones" onClick={closeSlideBar}>Sobre Nosotros</Link>
           </div>
 
-          <div className='text-center text-black text-xl hover:bg-black hover:text-white cursor-pointer py-3 mb-2'>
-            <Link to="/Artículos" onClick={closeSlideBar}>Artículos</Link>
-          </div>
-
-          <div className='text-center text-black text-xl hover:bg-black hover:text-white cursor-pointer py-3 mb-2'>
-            <Link to="/Comunícate" onClick={closeSlideBar}>Comunícate</Link>
-          </div>
         </div>
       </div>
     </div>

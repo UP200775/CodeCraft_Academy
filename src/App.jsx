@@ -26,7 +26,7 @@ function App() {
           <>
             <div className='lg:gap-8'>
               <Cars />
-              <NewCar />
+              
             </div>
           </>
         } />
